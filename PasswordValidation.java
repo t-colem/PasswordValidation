@@ -116,19 +116,3 @@ public class PasswordValidation {
         return isValidLength && hasCorrectAmountOfNumbers && doesNotStartWithNum && hasTwoUpperCase && hasLowerCase;
     }
 }
-/*
-Sample Output
----------------
-Enter a password: TesT23
-Invalid password, try again!
-TestTin2
-Invalid password, try again!
-2TesTing2
-Invalid password, try again!
-Testing23
-Invalid password, try again!
-TESTING23
-Invalid password, try again!
-TesTing23
-Password accepted!
-*/
